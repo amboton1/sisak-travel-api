@@ -1,10 +1,9 @@
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
-from datetime import datetime, timezone, time as dt_time
+from datetime import datetime, timezone, time
 import asyncio
 import httpx
-import json
 import re
 import logging
 from bs4 import BeautifulSoup
